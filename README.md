@@ -3,6 +3,8 @@
 [![Weibo](https://img.shields.io/badge/Weibo-%40KenshinCui-yellow.svg?style=flat)](https://m.weibo.cn/p/1005051869326357)
 ![](https://img.shields.io/github/license/mashape/apistatus.svg)
 
+**SmartCrop.framework** is an efficient picture smart clipping library
+
 - [Usage](#usage)
     - **[Prepare](#Prepare)**
     - **[Code](#Code)**
@@ -10,8 +12,6 @@
     - **[Demo run](#Demo-run)**
     - **[Output result](#Output-result)**
 - [License](#license)
-
-**SmartCrop.framework** is an efficient picture smart clipping library
 
 # Usage
 
