@@ -1,3 +1,16 @@
+![](https://github.com/kenshincui/SmartCropLib/blob/master/Resources/SmartCrop_Logo.jpg)
+
+[![Weibo](https://img.shields.io/badge/Weibo-%40KenshinCui-yellow.svg?style=flat)](https://m.weibo.cn/p/1005051869326357)
+![](https://img.shields.io/github/license/mashape/apistatus.svg)
+
+- [Usage](#usage)
+    - **[Prepare](#Prepare)**
+    - **[Code](#Code)**
+- [Demo](#Demo)
+    - **[Demo run](#Demo run)**
+    - **[Output result](#Output result)**
+- [License](#license)
+
 **SmartCrop.framework** is an efficient picture smart clipping library
 
 # Usage
@@ -9,7 +22,7 @@
 3. Add **libc++.tbd** to **Linked Frameworks and Libraries**
 4. Add **opencv2.framework** into the project (You can download opencv2.framework from [here](https://github.com/opencv/opencv/releases/download/3.4.4/opencv-3.4.4-ios-framework.zip) , it is recommended to use version 3.4.4.)
 
-## code
+## Code
 
 If you want to get a smart cropped image
 
@@ -35,17 +48,27 @@ If you want to run SmartCropDemo, just follow the instructions above to download
 
 Original image1
 
-![]()
+![](https://github.com/kenshincui/SmartCropLib/blob/master/Resources/1.jpg)
 
 After smart crop
+
+![](https://github.com/kenshincui/SmartCropLib/blob/master/Resources/1-output.jpg)
 
 Original image2
 
+![](https://github.com/kenshincui/SmartCropLib/blob/master/Resources/2.jpg)
+
 After smart crop
+
+![](https://github.com/kenshincui/SmartCropLib/blob/master/Resources/2-output.jpg)
 
 Original image3
 
+![](https://github.com/kenshincui/SmartCropLib/blob/master/Resources/3.jpg)
+
 After smart crop
+
+![](https://github.com/kenshincui/SmartCropLib/blob/master/Resources/3-output.jpg)
 
 
 # License
