@@ -7,8 +7,8 @@
     - **[Prepare](#Prepare)**
     - **[Code](#Code)**
 - [Demo](#Demo)
-    - **[Demo run](#Demo run)**
-    - **[Output result](#Output result)**
+    - **[Demo run](#Demo-run)**
+    - **[Output result](#Output-result)**
 - [License](#license)
 
 **SmartCrop.framework** is an efficient picture smart clipping library
