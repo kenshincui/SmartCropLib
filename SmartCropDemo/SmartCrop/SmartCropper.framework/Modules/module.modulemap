@@ -1,0 +1,6 @@
+framework module SmartCropper {
+  umbrella header "SmartCropper.h"
+
+  export *
+  module * { export * }
+}

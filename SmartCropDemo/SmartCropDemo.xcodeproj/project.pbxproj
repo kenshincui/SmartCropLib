@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC12565321BFAC23007FF846 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC12565221BFAC23007FF846 /* opencv2.framework */; };
+		FC12565521BFAC3C007FF846 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC12565421BFAC3C007FF846 /* libc++.tbd */; };
+		FC12565721BFAE8F007FF846 /* ImageBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC12565621BFAE8F007FF846 /* ImageBrowserViewController.swift */; };
+		FC12565921BFB095007FF846 /* ImageBrowserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC12565821BFB095007FF846 /* ImageBrowserCollectionViewCell.swift */; };
+		FC37DEA221C0B12F0091CE52 /* SmartCropper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC37DE9F21C0B1270091CE52 /* SmartCropper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FCF0867A21B50FDC000C290F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0867921B50FDC000C290F /* AppDelegate.swift */; };
+		FCF0867C21B50FDC000C290F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0867B21B50FDC000C290F /* ViewController.swift */; };
+		FCF0867F21B50FDC000C290F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF0867D21B50FDC000C290F /* Main.storyboard */; };
+		FCF0868121B50FE0000C290F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF0868021B50FE0000C290F /* Assets.xcassets */; };
+		FCF0868421B50FE0000C290F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF0868221B50FE0000C290F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC37DE9A21BFF0E80091CE52 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF086B121B5102D000C290F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FC37DEA221C0B12F0091CE52 /* SmartCropper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC12565221BFAC23007FF846 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		FC12565421BFAC3C007FF846 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FC12565621BFAE8F007FF846 /* ImageBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBrowserViewController.swift; sourceTree = "<group>"; };
+		FC12565821BFB095007FF846 /* ImageBrowserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBrowserCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC37DE9F21C0B1270091CE52 /* SmartCropper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartCropper.framework; sourceTree = "<group>"; };
+		FCF0867621B50FDC000C290F /* SmartCropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF0867921B50FDC000C290F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCF0867B21B50FDC000C290F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCF0867E21B50FDC000C290F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCF0868021B50FE0000C290F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCF0868321B50FE0000C290F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCF0868521B50FE0000C290F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF086E021B51BDD000C290F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCF086E221B51DE8000C290F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FCF086E421B51DEF000C290F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FCF086E621B51DF9000C290F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FCF086FF21B523FA000C290F /* SmartCropDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartCropDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCF0867321B50FDC000C290F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC12565521BFAC3C007FF846 /* libc++.tbd in Frameworks */,
+				FC12565321BFAC23007FF846 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0036F421B54134002C2579 /* SmartCrop */ = {
+			isa = PBXGroup;
+			children = (
+				FC37DE9F21C0B1270091CE52 /* SmartCropper.framework */,
+				FC12565221BFAC23007FF846 /* opencv2.framework */,
+			);
+			path = SmartCrop;
+			sourceTree = "<group>";
+		};
+		FCF0866D21B50FDC000C290F = {
+			isa = PBXGroup;
+			children = (
+				FC0036F421B54134002C2579 /* SmartCrop */,
+				FCF0867821B50FDC000C290F /* SmartCropDemo */,
+				FCF0867721B50FDC000C290F /* Products */,
+				FCF086DF21B51BDC000C290F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCF0867721B50FDC000C290F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCF0867621B50FDC000C290F /* SmartCropDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCF0867821B50FDC000C290F /* SmartCropDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FCF0867921B50FDC000C290F /* AppDelegate.swift */,
+				FCF0867B21B50FDC000C290F /* ViewController.swift */,
+				FC12565621BFAE8F007FF846 /* ImageBrowserViewController.swift */,
+				FC12565821BFB095007FF846 /* ImageBrowserCollectionViewCell.swift */,
+				FCF0867D21B50FDC000C290F /* Main.storyboard */,
+				FCF0868021B50FE0000C290F /* Assets.xcassets */,
+				FCF0868221B50FE0000C290F /* LaunchScreen.storyboard */,
+				FCF0868521B50FE0000C290F /* Info.plist */,
+				FCF086FF21B523FA000C290F /* SmartCropDemo-Bridging-Header.h */,
+			);
+			path = SmartCropDemo;
+			sourceTree = "<group>";
+		};
+		FCF086DF21B51BDC000C290F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC12565421BFAC3C007FF846 /* libc++.tbd */,
+				FCF086E621B51DF9000C290F /* ImageIO.framework */,
+				FCF086E421B51DEF000C290F /* AVFoundation.framework */,
+				FCF086E221B51DE8000C290F /* Accelerate.framework */,
+				FCF086E021B51BDD000C290F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCF0867521B50FDC000C290F /* SmartCropDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF0868821B50FE0000C290F /* Build configuration list for PBXNativeTarget "SmartCropDemo" */;
+			buildPhases = (
+				FCF0867221B50FDC000C290F /* Sources */,
+				FCF0867321B50FDC000C290F /* Frameworks */,
+				FCF0867421B50FDC000C290F /* Resources */,
+				FCF086B121B5102D000C290F /* Embed Frameworks */,
+				FC37DE9A21BFF0E80091CE52 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCropDemo;
+			productName = SmartCropDemo;
+			productReference = FCF0867621B50FDC000C290F /* SmartCropDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCF0866E21B50FDC000C290F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CMJStudio;
+				TargetAttributes = {
+					FCF0867521B50FDC000C290F = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = FCF0867121B50FDC000C290F /* Build configuration list for PBXProject "SmartCropDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCF0866D21B50FDC000C290F;
+			productRefGroup = FCF0867721B50FDC000C290F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCF0867521B50FDC000C290F /* SmartCropDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCF0867421B50FDC000C290F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF0868421B50FE0000C290F /* LaunchScreen.storyboard in Resources */,
+				FCF0868121B50FE0000C290F /* Assets.xcassets in Resources */,
+				FCF0867F21B50FDC000C290F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCF0867221B50FDC000C290F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC12565921BFB095007FF846 /* ImageBrowserCollectionViewCell.swift in Sources */,
+				FC12565721BFAE8F007FF846 /* ImageBrowserViewController.swift in Sources */,
+				FCF0867C21B50FDC000C290F /* ViewController.swift in Sources */,
+				FCF0867A21B50FDC000C290F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCF0867D21B50FDC000C290F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF0867E21B50FDC000C290F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCF0868221B50FE0000C290F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF0868321B50FE0000C290F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCF0868621B50FE0000C290F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCF0868721B50FE0000C290F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCF0868921B50FE0000C290F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PQA922YAG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartCropDemo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SmartCrop",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SmartCropDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.ic.camera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartCropDemo/SmartCropDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCF0868A21B50FE0000C290F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PQA922YAG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartCropDemo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SmartCrop",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SmartCropDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.ic.camera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartCropDemo/SmartCropDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCF0867121B50FDC000C290F /* Build configuration list for PBXProject "SmartCropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF0868621B50FE0000C290F /* Debug */,
+				FCF0868721B50FE0000C290F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF0868821B50FE0000C290F /* Build configuration list for PBXNativeTarget "SmartCropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF0868921B50FE0000C290F /* Debug */,
+				FCF0868A21B50FE0000C290F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCF0866E21B50FDC000C290F /* Project object */;
+}
